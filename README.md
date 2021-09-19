@@ -1,54 +1,38 @@
-# pyspark-template
 
-This is a pyspark project template
 
 
 ## Describe here your project
 
 
-This is a very simple HelloWorld example in pyspark. 
+This is the repo for Assignment 2
 
 
 # Submit your python scripts .py 
 
-If your assignment has 3 tasks you need to commit the 3 scripts only and overwrite them. You can then delete the script number 4 ( main_task4.py 
-)
+2 python scripts are attached to this repo
+1) Task1AndTask2.py - has code for both tasks based on the template provided
+2) Task3.py - has code for Task 3 using dataframe
 
-If your assignment has 4 tasks then you can use all of them. 
+Both these print output on the console and do not create an output folder.
 
 # Other Documents. 
 
-You can write your task description in this Markdown file or You can generate PDF file and added to the doc/ folder of your repository. 
+The other documents include
 
-Please note in your README.md file where your task description file is.  
+1) Input files
+2) Word document with the output and screenshots from Spark history
 
 
 # How to run  
 
-Run the task 1 by submitting the task to spark-submit. 
+Run the .py files by submitting the task to spark-submit. 
+
+example:
+spark-submit Task1And2.py WikipediaPagesOneDocPerLine1000LinesSmall.txt.bz2 wiki-categorylinks-small.csv.bz2
+
+spark-submit Task3.py wiki-categorylinks-small.csv.bz2
 
 
-```python
-
-spark-submit main_task1.py 
-
-```
-
-
-
-```python
-
-spark-submit main_task2.py 
-
-```
-
-
-
-```python
-
-spark-submit main_task3.py 
-
-```
 
 
 
